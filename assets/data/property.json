@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Modern 2-Bedroom Condo",
+    "location": {
+      "subdistrict": "Lak Hok",
+      "district": "Muang Pathum Thani",
+      "province": "Pathumthani"
+    },
+    "images": [
+      "https://raw.githubusercontent.com/badgersmans/my-renthub-clone/refs/heads/main/assets/images/1.jpg.webp",
+      "https://raw.githubusercontent.com/badgersmans/my-renthub-clone/refs/heads/main/assets/images/2.jpg.webp"
+    ],
+    "priceRange": {
+      "min": 7500,
+      "max": 12000,
+      "currency": "THB",
+      "billingCycle": "monthly"
+    },
+    "tags": ["exclusive", "newly renovated", "near BTS"]
+  },
+  {
+    "name": "Cozy Studio Apartment",
+    "location": {
+      "subdistrict": "Chatuchak",
+      "district": "Chatuchak",
+      "province": "Bangkok"
+    },
+    "images": [
+      "https://raw.githubusercontent.com/badgersmans/my-renthub-clone/refs/heads/main/assets/images/3.jpg.webp"
+    ],
+    "priceRange": {
+      "min": 6500,
+      "max": 8000,
+      "currency": "THB",
+      "billingCycle": "monthly"
+    },
+    "tags": ["affordable", "near MRT"]
+  },
+  {
+    "name": "Spacious Family Home",
+    "location": {
+      "subdistrict": "Bang Khen",
+      "district": "Muang Nonthaburi",
+      "province": "Nonthaburi"
+    },
+    "images": [
+      "https://raw.githubusercontent.com/badgersmans/my-renthub-clone/refs/heads/main/assets/images/4.jpg.webp",
+      "https://raw.githubusercontent.com/badgersmans/my-renthub-clone/refs/heads/main/assets/images/5.jpg.webp"
+    ],
+    "priceRange": {
+      "min": 18000,
+      "max": 25000,
+      "currency": "THB",
+      "billingCycle": "monthly"
+    },
+    "tags": ["pet-friendly", "garden", "parking"]
+  },
+  {
+    "name": "Luxury High-Rise Condo",
+    "location": {
+      "subdistrict": "Khlong Toei",
+      "district": "Khlong Toei",
+      "province": "Bangkok"
+    },
+    "images": [
+      "https://raw.githubusercontent.com/badgersmans/my-renthub-clone/refs/heads/main/assets/images/5.jpg.webp",
+      "https://raw.githubusercontent.com/badgersmans/my-renthub-clone/refs/heads/main/assets/images/6.jpg.webp",
+      "https://raw.githubusercontent.com/badgersmans/my-renthub-clone/refs/heads/main/assets/images/7.jpg.webp"
+    ],
+    "priceRange": {
+      "min": 32000,
+      "max": 45000,
+      "currency": "THB",
+      "billingCycle": "monthly"
+    },
+    "tags": ["exclusive", "city view", "gym access"]
+  },
+  {
+    "name": "Budget 1-Bedroom Apartment",
+    "location": {
+      "subdistrict": "Bang Phut",
+      "district": "Pak Kret",
+      "province": "Nonthaburi"
+    },
+    "images": [
+      "https://raw.githubusercontent.com/badgersmans/my-renthub-clone/refs/heads/main/assets/images/8.jpg.webp"
+    ],
+    "priceRange": {
+      "min": 5000,
+      "max": 6000,
+      "currency": "THB",
+      "billingCycle": "monthly"
+    },
+    "tags": ["budget", "student-friendly"]
+  }
+]

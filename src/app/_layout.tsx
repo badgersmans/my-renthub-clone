@@ -4,6 +4,7 @@ import { ThemeProvider } from '@react-navigation/native'
 import { darkTheme, lightTheme } from '@/colors/theme';
 import { useColorScheme } from 'react-native';
 import '../../global.css'
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 export default function RootLayout() {
   const colorScheme = useColorScheme(); // 'light' | 'dark'
@@ -12,7 +13,9 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={theme}>
       <StatusBar />
-      <Stack />
+      <GestureHandlerRootView>
+        <Stack />
+      </GestureHandlerRootView>
     </ThemeProvider>
   )
 }
