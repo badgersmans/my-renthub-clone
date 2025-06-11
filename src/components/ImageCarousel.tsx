@@ -45,6 +45,7 @@ export default function ImageCarousel({images, tags}: ImageCarouselProps) {
           alignItems: 'center',
           justifyContent: 'center'
         }}
+        loop={false}
         renderItem={({ index }) => (
           <>
             <Text

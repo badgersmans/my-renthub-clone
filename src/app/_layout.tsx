@@ -1,4 +1,4 @@
-import { Slot, Stack } from 'expo-router'
+import { Stack } from 'expo-router'
 import { StatusBar } from 'expo-status-bar';
 import { ThemeProvider } from '@react-navigation/native'
 import { darkTheme, lightTheme } from '@/colors/theme';
@@ -14,7 +14,7 @@ export default function RootLayout() {
     <ThemeProvider value={theme}>
       <StatusBar />
       <GestureHandlerRootView>
-        <Stack />
+        <Stack screenOptions={{headerShown: false}}/>
       </GestureHandlerRootView>
     </ThemeProvider>
   )
